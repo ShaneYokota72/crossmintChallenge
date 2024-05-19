@@ -9,10 +9,15 @@ The repository contains a simple Express server that has two endpoints to make t
 
 # Getting Started 📘
 ### Step 1: Setting up the .env file
-- PORT = `<YOUR LOCAL API PORT>` (example: 3000)
-- CANDIDATE_ID = `<CANDIDATE ID>` 
-- LOCAL_API_ENDPOINT = `http://localhost:<PORT>/api` (example: http://localhost:3000/api  )
-- API_ENDPOINT = https://challenge.crossmint.io/api
+```
+PORT = <YOUR LOCAL API PORT> (example: 3000)
+
+CANDIDATE_ID = <CANDIDATE ID>
+
+LOCAL_API_ENDPOINT = http://localhost:<PORT>/api (example: http://localhost:3000/api  )
+
+API_ENDPOINT = https://challenge.crossmint.io/api
+```
 
 ### Step 2: Starting the Express server
 Installing the dependencies and starting the Express server:
